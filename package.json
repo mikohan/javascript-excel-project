@@ -1,0 +1,23 @@
+{
+  "name": "javascript-excel-project",
+  "version": "1.0.0",
+  "description": "Big Project for learning JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikohan/javascript-excel-project.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": " <angara99@gamil.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikohan/javascript-excel-project/issues"
+  },
+  "homepage": "https://github.com/mikohan/javascript-excel-project#readme"
+}
