@@ -1,0 +1,16 @@
+{
+  "plugins": ['prettier'],
+  "parser": "babel-eslint",
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+
+    },
+    "rules": {
+    "require-jsdoc": "off",
+    },
+    "extends": [
+    "plugin:prettier/recommended",
+    "eslint:recommended", "google"] 
+}
