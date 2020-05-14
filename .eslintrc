@@ -9,6 +9,7 @@
     },
     "rules": {
     "require-jsdoc": "off",
+    "object-curly-spacing": ["error", "always"],
     },
     "extends": [
     "plugin:prettier/recommended",
