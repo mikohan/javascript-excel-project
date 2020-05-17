@@ -10,8 +10,13 @@
     "rules": {
     "require-jsdoc": "off",
     "object-curly-spacing": ["error", "always"],
+    "max-len": ["error", { "code": 120 }],
+    "operator-linebreak": "off",
+    "no-debugger": "off",
+    "indent": "off",
     },
     "extends": [
     "plugin:prettier/recommended",
-    "eslint:recommended", "google"] 
+    "eslint:recommended", "google",
+    ],
 }
