@@ -17,6 +17,6 @@
     },
     "extends": [
     "plugin:prettier/recommended",
-    "eslint:recommended", "google",
+    "eslint:recommended" ,
     ],
 }
