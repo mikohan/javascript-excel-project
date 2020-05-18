@@ -19,6 +19,20 @@ class Dom {
     return this;
   }
 
+  findAll(selector) {
+    return this.$el.querySelectorAll(selector);
+  }
+
+  css(styles = {}) {
+    Object.keys(styles).forEach((key) => {
+      this.$el.style[key] = styles[key];
+    });
+  }
+
+  get data() {
+    return this.$el.dataset;
+  }
+
   append(node) {
     if (node instanceof Dom) {
       node = node.$el;
@@ -36,6 +50,14 @@ class Dom {
 
   off(eventType, callback) {
     this.$el.removeEventListener(eventType, callback);
+  }
+
+  closest(selector) {
+    return $(this.$el.closest(selector));
+  }
+
+  getCoords() {
+    return this.$el.getBoundingClientRect();
   }
 }
 
