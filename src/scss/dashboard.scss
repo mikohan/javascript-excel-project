@@ -79,14 +79,18 @@
     }
 
     a {
-      text-decoration: none;
+      text-decoration: underline;
       cursor: pointer;
       color: $main-material-color;
-      font-size: .8rem;
+      font-size: 1.2rem;
+      color: #4285f4;
       
       &:hover {
         text-decoration: underline;
       }
+    }
+    span {
+      font-size: .8rem;
     }
     
   }
