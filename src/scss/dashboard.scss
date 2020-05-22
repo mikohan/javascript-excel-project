@@ -24,6 +24,7 @@
   }
 
   &__create {
+    position: relative;
     width: 160px;
     height: 160px;
     background: #fff;
@@ -39,8 +40,16 @@
 
     &:hover {
       cursor: pointer;
-      color: green;
-      border-color: green;
+      color: $selection-color;
+      border-color: $selection-color;
+    }
+    &:before {
+      content: '+';
+      position: absolute;
+      top: 30%;
+      left: 11%;
+      font-size: 3rem;
+      color: $selection-color;
     }
   }
 

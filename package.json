@@ -4,7 +4,8 @@
   "description": "Big Project for learning JS",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "start": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
@@ -41,6 +42,7 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "^3.1.3",
     "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.0.1",
     "loader": "^2.1.1",
     "mini-css-extract-plugin": "^0.9.0",
     "prettier": "2.0.5",
